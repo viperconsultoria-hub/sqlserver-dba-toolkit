@@ -19,7 +19,7 @@ jobs:
     name: Markdown lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: DavidAnson/markdownlint-cli2-action@v20
         with:
           globs: |
@@ -29,8 +29,8 @@ jobs:
     name: SQL lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
       - run: python -m pip install sqlfluff==3.4.2
@@ -40,7 +40,7 @@ jobs:
     name: Link check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: lycheeverse/lychee-action@v2
         with:
           args: >-
