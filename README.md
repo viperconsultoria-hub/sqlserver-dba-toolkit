@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/viperconsultoria-hub/sqlserver-dba-toolkit/actions/workflows/lint.yml"><img alt="Quality checks" src="https://github.com/viperconsultoria-hub/sqlserver-dba-toolkit/actions/workflows/lint.yml/badge.svg"></a>
-  <a href="https://github.com/viperconsultoria-hub/sqlserver-dba-toolkit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/viperconsultoria-hub/sqlserver-dba-toolkit?style=flat-square"></a>
+  <a href="https://github.com/viperconsultoria-hub/sqlserver-dba-toolkit"><img alt="GitHub stars" src="https://img.shields.io/github/stars/viperconsultoria-hub/sqlserver-dba-toolkit?style=flat-square"></a>
   <a href="https://github.com/viperconsultoria-hub/sqlserver-dba-toolkit/blob/main/LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square"></a>
   <a href="https://learn.microsoft.com/en-us/sql/sql-server/what-s-new-in-sql-server-2022"><img alt="SQL Server 2016 through 2022" src="https://img.shields.io/badge/SQL%20Server-2016%20%7C%202019%20%7C%202022-CC2927?style=flat-square"></a>
   <a href="https://github.com/viperconsultoria-hub/sqlserver-dba-toolkit/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/viperconsultoria-hub/sqlserver-dba-toolkit?style=flat-square"></a>
