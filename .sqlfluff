@@ -1,0 +1,16 @@
+[sqlfluff]
+dialect = tsql
+templater = raw
+max_line_length = 120
+large_file_skip_byte_limit = 0
+exclude_rules = layout.select_targets, layout.long_lines, layout.indent, layout.cte_newline, layout.keyword_newline, ambiguous.column_count, ambiguous.order_by, structure.column_order, structure.join_condition_order, structure.subquery, convention.casting_style, aliasing.expression, aliasing.unused, aliasing.unique.column, references.qualification, references.keywords
+
+[sqlfluff:indentation]
+tab_space_size = 4
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper
+ignore_words = max
+
+[sqlfluff:rules:capitalisation.identifiers]
+extended_capitalisation_policy = consistent

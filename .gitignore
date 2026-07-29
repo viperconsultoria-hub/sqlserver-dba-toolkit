@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.trn
+*.sqlaudit
+.idea/
+.vscode/
+.venv/
+__pycache__/
+.sqlfluffcache

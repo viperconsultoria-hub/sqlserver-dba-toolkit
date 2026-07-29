@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Grafana dashboard preview</title>
+  <desc id="desc">Illustrative dark SQL operations dashboard with metrics and time series.</desc>
+  <rect width="1000" height="520" rx="18" fill="#111217"/>
+  <rect x="24" y="22" width="952" height="60" rx="8" fill="#1f2027"/>
+  <circle cx="53" cy="52" r="14" fill="#f97316"/>
+  <text x="79" y="61" fill="#f3f4f6" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700">SQL Server Fleet</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g fill="#1f2027" stroke="#34363f"><rect x="24" y="102" width="300" height="135" rx="8"/><rect x="350" y="102" width="300" height="135" rx="8"/><rect x="676" y="102" width="300" height="135" rx="8"/></g>
+    <g fill="#a3a3a3" font-size="15"><text x="44" y="134">CPU</text><text x="370" y="134">Data I/O</text><text x="696" y="134">Log I/O</text></g>
+    <g fill="#f3f4f6" font-size="40" font-weight="700"><text x="44" y="195">36%</text><text x="370" y="195">21%</text><text x="696" y="195">14%</text></g>
+    <rect x="24" y="260" width="952" height="235" rx="8" fill="#1f2027" stroke="#34363f"/>
+    <text x="46" y="294" fill="#f3f4f6" font-size="17" font-weight="700">Resource saturation</text>
+    <path d="M55 435 145 404 235 425 325 350 415 375 505 305 595 335 685 290 775 340 865 280 945 310" fill="none" stroke="#f97316" stroke-width="5"/>
+    <path d="M55 455 145 440 235 445 325 415 415 420 505 390 595 405 685 370 775 395 865 350 945 375" fill="none" stroke="#22c55e" stroke-width="4"/>
+  </g>
+</svg>
